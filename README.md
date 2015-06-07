@@ -1,7 +1,9 @@
 SpreeCartUpdate
 ===============
 
-Introduction goes here.
+As spree doesn't update line items price when products price changes, this extension make it. 
+
+Tested with spree 3.0.2.beta.
 
 Installation
 ------------
@@ -36,4 +38,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_cart_update/factories'
 ```
 
-Copyright (c) 2015 [name of extension creator], released under the New BSD License
+Copyright (c) 2015 Vladislav Zaets, released under the New BSD License
