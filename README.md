@@ -1,7 +1,7 @@
 SpreeCartUpdate
 ===============
 
-As spree doesn't update line items price when products price changes, this extension make it. 
+As spree doesn't update line items price when products price changes, this extension do it. 
 
 Tested with spree 3.0.2.beta.
 
