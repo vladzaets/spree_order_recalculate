@@ -1,8 +1,8 @@
-module SpreeCartUpdate
+module SpreeOrderRecalculate
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_cart_update'
+    engine_name 'spree_order_recalculate'
 
     # use rspec for tests
     config.generators do |g|
