@@ -2,14 +2,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_order_recalculate'
-  s.version     = '3.0.0'
+  s.version     = '3.0.2'
   s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.description = 'As spree doesn\'t update line items price when products price changes, this extension do it.'
   s.required_ruby_version = '>= 2.0.0'
 
   s.author    = 'Vladislav Zaets'
   s.email     = 'vladzaets@gmail.com'
-  s.homepage  = 'http://rubydev.ru'
+  s.homepage  = 'https://github.com/vladzaets/spree_order_recalculate'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
