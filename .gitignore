@@ -13,4 +13,4 @@ pkg
 *.swp
 spec/dummy
 
-spree_order_recalculate-3.0.0.gem
+*.gem
