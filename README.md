@@ -4,6 +4,7 @@ SpreeCartUpdate
 As spree doesn't update line items price when products price changes, this extension do it. 
 
 Tested with spree 3.0.2.beta.
+Also it should be 100% compatible with spree 2.4.
 
 Installation
 ------------
