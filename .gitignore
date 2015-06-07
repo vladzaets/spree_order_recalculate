@@ -12,3 +12,5 @@ nbproject
 pkg
 *.swp
 spec/dummy
+
+spree_cart_update-3.0.0.gem
