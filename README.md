@@ -11,7 +11,7 @@ Installation
 Add spree_cart_update to your Gemfile:
 
 ```ruby
-gem 'spree_cart_update'
+gem 'spree_cart_update', github: 'vladzaets/spree_cart_update', branch: '3-0-stable'
 ```
 
 Bundle your dependencies and run the installation generator:
