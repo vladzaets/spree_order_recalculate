@@ -1,10 +1,6 @@
 module Spree
   CheckoutController.class_eval do
-
-    def edit
-      @order.update_with_line_items!
-      associate_user
-    end
-
+    include OrderRecalculate
+    before_action :recalculate_order, only: [:edit]
   end
 end
