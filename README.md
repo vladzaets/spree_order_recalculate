@@ -6,6 +6,8 @@ As spree doesn't update line items price when products price changes, this exten
 Tested with spree 3.0.2.beta.
 Also it should be 100% compatible with spree 2.4.
 
+This extension is not overriding any built-in methods, but including a new one to Order model and a callback to orders and checkout controllers, so it should be very safe and compatible with other spree customizations.
+
 Installation
 ------------
 
