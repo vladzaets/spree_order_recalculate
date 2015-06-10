@@ -11,7 +11,7 @@ module Spree
           update_needed = true
         end
       end
-      update! if update_needed
+      update_needed ? update! : false
     end
   end
 end
