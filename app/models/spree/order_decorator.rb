@@ -11,9 +11,6 @@ module Spree
             item.save
             update_needed = true
           end
-        else
-          item.destroy
-          update_needed = true
         end
       end
       update_needed ? update! : false
