@@ -7,7 +7,6 @@ How it works:
 
 * When user goes to cart or checkout page:
   * If price of variant has changed, the price in cart will change too.
-  * If variant has been deleted, it will be deleted from cart too.
   * Order will be recalculated if anything has changed.
 
 Tested with spree 3.0.2.beta.
