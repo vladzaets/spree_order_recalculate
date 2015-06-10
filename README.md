@@ -4,10 +4,11 @@ SpreeOrderRecalculate
 As spree doesn't update line items price when products price changes, this extension do it. 
 
 How it works:
-1. When user goes to cart or checkout page.
-  1. If price of variant has changed, the price in cart will change too.
-  2. If variant is deleted, it will be deleted from cart too.
-  3. Order is recalculated if something changed.
+
+* When user goes to cart or checkout page.
+  * If price of variant has changed, the price in cart will change too.
+  * If variant is deleted, it will be deleted from cart too.
+  * Order is recalculated if something changed.
 
 Tested with spree 3.0.2.beta.
 Also it should be 100% compatible with spree 2.4.
