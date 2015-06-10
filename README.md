@@ -5,10 +5,10 @@ As spree doesn't update line items price when products price changes, this exten
 
 How it works:
 
-* When user goes to cart or checkout page.
+* When user goes to cart or checkout page:
   * If price of variant has changed, the price in cart will change too.
-  * If variant is deleted, it will be deleted from cart too.
-  * Order is recalculated if something changed.
+  * If variant has been deleted, it will be deleted from cart too.
+  * Order will be recalculated if anything has changed.
 
 Tested with spree 3.0.2.beta.
 Also it should be 100% compatible with spree 2.4.
