@@ -2,8 +2,8 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_order_recalculate'
-  s.version     = '3.2.0'
-  s.summary     = 'TODO: Add gem summary here'
+  s.version     = '3.2.1'
+  s.summary     = 'Add gem summary here'
   s.description = 'As spree doesn\'t update line items price when products price changes, this extension do it.'
   s.required_ruby_version = '>= 2.0.0'
 
